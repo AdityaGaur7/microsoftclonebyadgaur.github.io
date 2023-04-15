@@ -80,6 +80,7 @@ a{
 }
 .main{
    width: 100%;
+   margin: 0px 2vw;
    height: 520px;
     background: url("img/main-img.png");
     background-repeat: no-repeat;
@@ -308,3 +309,66 @@ a:hover i{
     
 }
 
+@media (max-width:700px){
+
+    .list1{
+        display: none;
+    }
+    .logo img{
+        
+    width: auto;
+    height: 3vh;
+}
+
+    .card{
+        display:block;
+
+    }
+    .card1{
+        text-align: center;
+        width: 92vw;
+    }
+    .main{
+        background-position: center;
+    }
+    .card1 img{
+        width: 92vw;
+        height: auto;
+    }
+    .list2 a{
+        visibility: hidden;
+    }
+    #downarrow
+    {
+        visibility: hidden;
+    }
+    .main2 h1,p{
+        margin-left: -46vw;
+
+    }
+    .main2 button{
+        margin-left: -20vw;
+    }
+    .card1 img{
+        margin-top: 7vh;
+    }
+    .btn button{
+        margin-left: -20vw;
+    }
+    .links{
+        font-weight: 600;
+    font-size: 6px;
+    text-align: center;
+    padding-left: 10vw;
+    }
+    #bottom{
+        display: block;
+    }
+    #spn{
+        margin-left: 20vw;
+    }
+    .list-item li{
+        margin: 0vw;
+        margin-top: 2vh;
+    }
+}
