@@ -371,4 +371,10 @@ a:hover i{
         margin: 0vw;
         margin-top: 2vh;
     }
+      .main p{
+        margin-left: -5vw;
+    }
+    .card1 p{
+        margin-left: -2vw;
+    }
 }
